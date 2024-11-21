@@ -4,3 +4,9 @@
 /* setting */
 @import url(./src/css/base/reset.css);
 @import url(./src/css/base/font.css);
+
+/* layout */
+@import url(./src/css/pages/header.css);
+
+section{height: 100vh;
+border: 1px solid #000;}
