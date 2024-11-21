@@ -1,0 +1,6 @@
+@charset "UTF_8";
+
+
+/* setting */
+@import url(./src/css/base/reset.css);
+@import url(./src/css/base/font.css);

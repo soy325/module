@@ -1,0 +1,27 @@
+:root{
+    --mainEng-font:"Roboto";
+    --mainKor-font:"Roboto";
+    --mainNum-font:"Roboto";
+
+    font-family: var(--mainEng-font), var(--mainKor-font), var(--mainNum-font);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing:  antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+body{
+    color: #000;
+    background: #fff;
+}
+
+@media (max-width:800px) {
+    :root{
+        font-size: 14px;
+    }
+    
+}
+
